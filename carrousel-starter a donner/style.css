@@ -1,0 +1,57 @@
+body {
+  background-color: #d9e7ff;
+  background-image: linear-gradient(to right, #effaff 0%, #d9e7ff 100%);
+}
+
+h1 {
+  font-family: 'Gowun Dodum', sans-serif;   font-size: 2.4em;
+  background: -webkit-linear-gradient(to right, #06619b 0%, #01e396 100%);
+  background: linear-gradient(to right,  #06619b 0%, #01e396 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.carousel {
+  min-height:100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-container{
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.carousel-slide img {
+  height: 100%;
+  width: 100%;
+}
+
+.carousel-slide{
+  display: flex;
+  height: 450px;
+  width: auto;
+}
+
+#previousBtn{
+ position: absolute;
+ top: 50%;
+ left: 2%;
+ z-index: 10;
+ color: #fff;
+ opacity: 0.6;
+ cursor: pointer;
+}
+
+#nextBtn{
+  position: absolute;
+  top: 50%;
+  right: 2%;
+  z-index: 10;
+  color:#fff;
+  opacity: 0.6;
+  cursor: pointer;
+}
